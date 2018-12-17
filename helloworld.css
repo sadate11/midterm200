@@ -1,4 +1,14 @@
-h1 {
-  color: red;
-  font-family: Helvetica, sans-serif;
+
+
+h1, h2 {
+  color: #FD5C63;
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  font-family: "Muli", sans-serif;
+}
+
+ul {
+  list-style-type: none;
 }
