@@ -7,12 +7,16 @@
   <link rel="stylesheet" href="bootstrap.css">
   <link rel="stylesheet" href="helloworld.css">
   <link href="https://fonts.googleapis.com/css?family=Muli|Playfair+Display" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
   <!-- CSS END -->
   <!-- JAVASCRIPT AND JQUERY -->
   <script src="jquery-3.3.1.min.js"></script>
   <script src="bootstrap.js"></script>
+  <script src="script.js"></script>
+
   <!-- JAVASCRIPT AND JQUERY END -->
 </head>
+
 <body>
   <!-- BOOTSTRAP NAVBAR -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -54,21 +58,22 @@
   </nav>
   <!-- BOOTSTRAP NAVBAR END -->
 
-  <div class="container">
-    <h1>Challenge Statement</h1>
+  <div class="homepage-hero-module">
+  <div class="video-container">
+    <div class="filter"></div>
+    <video autoplay loop muted playsinline class="fillWidth">
+      <source src="MP4/traffic.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+      <source src="WEBM/traffic.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+    </video>
 
-    <div class="row">
-      <div class="col-sm">
-        <img src="assets/hmls2.jpg" class="img-fluid boxes" alt="">
-      </div>
+    <div class="overlay">
+      <h1 id="title">VOICE OF THE HOMELESS</h1>
 
-      <div class="col-sm">
-        <img src="assets/hmls3.jpg" class="img-fluid boxes" alt="">
-      </div>
+    </div>
 
-      <p>For the final project I will design a website that will raise awareness on homelessness in New York City. We see a lot of homeless people every day, but as soon as we walk pass we forget everything about them. Especially in the winter, few of us are aware of what they really go through on a daily basis.
-   </p>
-      </div>
   </div>
+
+</div>
+
 </body>
 </html>
