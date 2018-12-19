@@ -7,7 +7,7 @@ h1, h2, h3 {
 
 p {
   font-family: "Muli", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 ul li{
@@ -80,4 +80,13 @@ ul li{
     color: #eb4d4b;
   }
 
-  
+  #logo {
+    font-family: "Staatliches";
+    font-size: 1.8rem;
+    font-weight: 400;
+
+  }
+
+  img {
+    margin: .4rem;
+  }
