@@ -2,22 +2,18 @@
 <html>
 <head>
   <meta charset="UTF-8"/>
-  <title>VoH NYC</title>
+  <title>Goals & Challenges</title>
   <!-- CSS STYLESHEETS -->
   <link rel="stylesheet" href="bootstrap.css">
   <link rel="stylesheet" href="helloworld.css">
   <link href="https://fonts.googleapis.com/css?family=Muli|Playfair+Display" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
-  <link rel="stylesheet" href="animate.min.css">
   <!-- CSS END -->
   <!-- JAVASCRIPT AND JQUERY -->
   <script src="jquery-3.3.1.min.js"></script>
   <script src="bootstrap.js"></script>
-  <script src="script.js"></script>
-
   <!-- JAVASCRIPT AND JQUERY END -->
 </head>
-
 <body>
   <!-- BOOTSTRAP NAVBAR -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -44,7 +40,9 @@
             <a class="dropdown-item" href="learn.html">Learn</a>
           </div>
         </li>
-        
+        <li class="nav-item">
+          <a class="nav-link" href="advocate.html">Advocate</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="donate.html">Donate</a>
         </li>
@@ -57,22 +55,26 @@
   </nav>
   <!-- BOOTSTRAP NAVBAR END -->
 
-  <div class="homepage-hero-module">
-  <div class="video-container">
-    <div class="filter"></div>
-    <video autoplay loop muted playsinline class="fillWidth">
-      <source src="MP4/traffic.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-      <source src="WEBM/traffic.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
-    </video>
+  <div class="container">
+    <h1> We Stand for those who can't</h1>
 
-    <div class="overlay">
-      <h1 class="animated zoomIn" id="title">VOICE OF THE HOMELESS</h1>
+    <div class="row">
+      <div class="col-sm">
+        <img src="assets/hmls1.jpg" class="img-fluid boxes" alt="">
+      </div>
 
-    </div>
-
+      <div class="col-sm">
+        <img src="assets/hmls4.jpg" class="img-fluid boxes" alt="">
+      </div>
   </div>
 
-</div>
+  <p>For my final project, I would like to create a website that represents the voice of the homeless population, create a platform where people can learn about the reality that homeless people face everyday. The site will inform people on how they can actually help homeless people they encounter everyday, whether by providing them with food or warm clothes to stay warm during the cold weather. My major issue is how to create a fully responsive website. I would add some media queries and with JQuery and bootstrap I believe I can achieve a well designed responsive site across all screens.
 
+</p>
+
+</div>
 </body>
+<footer>
+  <p id="footer">&copy; 2018 VoH NYC All Rights Reserved</p>
+</footer>
 </html>

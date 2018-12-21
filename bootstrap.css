@@ -3271,7 +3271,7 @@ tbody.collapse.show {
   padding: 0.25rem 1.5rem;
   clear: both;
   font-weight: 400;
-  color: #212529;
+  color: #333;
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;
@@ -3890,7 +3890,7 @@ tbody.collapse.show {
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
+  color: #FD5C63;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
